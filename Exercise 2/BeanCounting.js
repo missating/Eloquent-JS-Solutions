@@ -30,5 +30,5 @@ function countBS(str) {
 	return countChar(str, "B");
 }
 
-document.write(countChar("helllo", "l"));
-document.write(countBS("BbbbbC")); 
+console.log(countChar("helllo", "l"));
+console.log(countBS("BbbbbC")); 
