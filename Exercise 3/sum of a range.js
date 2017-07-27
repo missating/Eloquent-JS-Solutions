@@ -22,15 +22,27 @@ function sum(arr) {
 
 	return result;
 }
-
 console.log(sum([1,2,3,4,5,6,7,8,9,10]));
 
 
 //return an array containing all the numbers from start up and including end
 function range(start, end, step) {
 	var arr = [];
+	
+	if(step < 0){
+	
+	for(start; start >= end; start+=step){
+		arr.push(start);
+	
+	} }else {
+    
+	for (start; start <= end; start+= step){
+		arr.push(start);
+	}
+	}
 
-
+	return arr;
 }
 
 console.log(range(5, 2, -1));
+console.log(range(1, 10, 2));
