@@ -22,5 +22,5 @@ function reverseArrayInPlace(newArray) {
 
 	 return newArray;
 }
-var nessa = [1,2,3,4,5];
-console.log(reverseArrayInPlace(nessa));
+var arr = [1,2,3,4,5];
+console.log(reverseArrayInPlace(arr));
